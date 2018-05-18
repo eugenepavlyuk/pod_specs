@@ -13,7 +13,7 @@ A collection of useful classes which can be used on other projects
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'EPFoundation/Classes/**/*'
+  s.source_files = 'EPFoundation/Classes/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'EPFoundation' => ['EPFoundation/Assets/*.png']
