@@ -2,10 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'EPFoundation'
   s.version          = '0.0.1'
   s.summary          = 'A collection of useful classes which can be used on other projects'
-  s.description      = <<-DESC
-A collection of useful classes which can be used on other projects
-                       DESC
-
+  s.description      = 'A collection of useful classes for using in other projects'
   s.homepage         = 'https://github.com/eugenepavlyuk/EPFoundation'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'eugenepavlyuk' => 'eugene.pavlyuk@gmail.com' }
@@ -13,7 +10,7 @@ A collection of useful classes which can be used on other projects
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'EPFoundation/Classes/**/*.{swift}'
+  s.source_files = 'EPFoundation/EPFoundation/Classes/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'EPFoundation' => ['EPFoundation/Assets/*.png']
